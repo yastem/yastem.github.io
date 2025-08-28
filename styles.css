@@ -1,22 +1,27 @@
 body {
   background-image: url('images/background.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  @media screen and (min-width: 320px) {
-   .title {
-       font-size: 1.6em;    // I want my title this size on a phone
-   }
-  #menuArea {
-      width: 100%;  
+  @media screen and (orientation: portrait) {
+  #toolbar {
+    width: 100%;
   }
 }
 
-@media screen and (min-width: 600px) {
-  .title {
-       font-size: 2em;    // I want my title this size on a bigger tablet
-   }
-  #menuArea {
-      width: 80%;
+/* For landscape, we want the toolbar stick on the left */
+
+  @media screen and (orientation: landscape) {
+  #toolbar {
+    position: fixed;
+    width: 2.65em;
+    height: 100%;
+  }
+
+  p {
+    margin-left: 2em;
+  }
+
+  li + li {
+    margin-top: 0.5em;
   }
 }
 }
