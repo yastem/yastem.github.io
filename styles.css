@@ -1,7 +1,7 @@
 body {
   background-image: url('images/background.jpg');
   background-repeat: no-repeat;
-  @media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) {
   #toolbar {
     width: 100%;
   }
