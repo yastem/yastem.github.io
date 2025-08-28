@@ -1,7 +1,7 @@
 body {
   background-image: url('images/background.jpg');
   background-repeat: no-repeat;
-  @media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) {
   #toolbar {
     width: 100%;
   }
@@ -9,7 +9,7 @@ body {
 
 /* For landscape, we want the toolbar stick on the left */
 
-  @media screen and (orientation: landscape) {
+@media screen and (orientation: landscape) {
   #toolbar {
     position: fixed;
     width: 2.65em;
@@ -23,5 +23,4 @@ body {
   li + li {
     margin-top: 0.5em;
   }
-}
 }
