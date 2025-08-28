@@ -1,6 +1,10 @@
 body {
   background-image: url('images/background.jpg');
   background-repeat: no-repeat;
+  background-size: cover; /* Optional: Adjust size to cover the entire element */
+  background-repeat: no-repeat; /* Optional: Prevent image from repeating */
+  background-position: center center; /* Optional: Center the image */
+    }
 /* First let's define some common styles */
 
 html,
